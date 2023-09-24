@@ -1,0 +1,28 @@
+.project-page-heading {
+  color: rgb(252, 4, 161);
+  font-size: 30px;
+  width: 10%;
+  box-sizing: border-box;
+}
+.project-page {
+  background-image: linear-gradient(135deg, #abdcff 10%, #0396ff 100%);
+  width: 38%;
+  height: auto;
+}
+.projects-grid {
+  height: auto;
+  width: 38%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.projectpage-image {
+  height: 150px;
+  width: 200px;
+}
+.projectpage-heading {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  text-decoration: none;
+}

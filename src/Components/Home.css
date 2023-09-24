@@ -1,0 +1,268 @@
+.body {
+  height: auto;
+  background-image: radial-gradient(
+    circle 900px at 51.2% 51%,
+    rgba(11, 27, 103, 1) 0%,
+    rgba(16, 66, 157, 1) 0%,
+    rgba(11, 27, 103, 1) 17.3%,
+    rgba(11, 27, 103, 1) 58.8%,
+    rgba(11, 27, 103, 1) 71.4%,
+    rgba(16, 66, 157, 1) 100.2%,
+    rgba(187, 187, 187, 1) 100.2%
+  );
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.contact-icons {
+  width: 100px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.icon1,
+.icon2,
+.icon3,
+.icon4,
+.icon5 {
+  font-size: 30px;
+  box-shadow: 1px 1px 25px 1px;
+  color: #e0f000;
+  padding-left: 10px;
+  padding-right: 10px;
+  cursor: pointer;
+}
+a {
+  color: #e0f000;
+}
+.icon1:hover,
+.icon2:hover,
+.icon3:hover,
+.icon4:hover,
+.icon5:hover {
+  color: #ff5389;
+}
+.title-descryption {
+  width: 700px;
+}
+.title {
+  font-size: 50px;
+  font-weight: 500;
+  font-family: "Times New Roman", Times, serif;
+  color: #f49402;
+  text-shadow: -3px -3px 3px rgb(151, 120, 73);
+}
+.titlea {
+  font-size: 40px;
+
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #d6d6d3;
+}
+.paragraph-descryption,
+.paragraph-descryption2 {
+  font-size: 25px;
+  color: #fb00ff;
+}
+.image {
+  height: 500px;
+  border-radius: 5px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.myimg {
+  height: 500px;
+  border-radius: 15px;
+}
+@media only screen and (max-width: 750px) {
+  .body {
+    flex-wrap: wrap;
+  }
+  .contact-icons {
+    font-size: 25px;
+  }
+  .title {
+    font-size: 40px;
+    margin-left: 20px;
+    margin-left: 20px;
+  }
+  .titlea {
+    font-size: 30px;
+    margin-left: 20px;
+    margin-left: 20px;
+  }
+  .paragraph-descryption,
+  .paragraph-descryption2 {
+    font-size: 20px;
+    margin-left: 14px;
+    margin-left: 14px;
+  }
+  .image {
+    margin-right: 5px;
+    margin-top: 15px;
+  }
+  .rightside {
+    width: 100%;
+    position: relative;
+  }
+  .btn1 {
+    position: absolute;
+  }
+  .project-image {
+    width: 440px;
+    height: 400px;
+  }
+  #btn1 {
+    left: 3%;
+  }
+  .myimg {
+    width: 330px;
+  }
+  .leftside {
+    height: 500px;
+    position: relative;
+  }
+  .project-descryption {
+    height: 200px;
+  }
+  .link1,
+  .link2,
+  .link3,
+  .link4 {
+    font-size: 12px;
+  }
+}
+.show {
+  height: auto;
+
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+.container1,
+.container2,
+.container3,
+.container4 {
+  font-size: 20px;
+  color: #08ff25;
+  border-top: 15px solid rgb(255, 4, 4);
+
+  cursor: pointer;
+
+  box-shadow: inset 0 0 0 0 #54d65d;
+  transition: color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+.container1:hover,
+.container2:hover,
+.container3:hover,
+.container4:hover {
+  color: #ffff;
+  box-shadow: inset 150px 0 0 0 #00ff04;
+  border-top: 15px solid rgb(4, 4, 255);
+}
+.photos {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.rightside {
+  width: 800px;
+  height: auto;
+  position: relative;
+}
+.project-image {
+  height: 500px;
+}
+#btn1 {
+  height: 50px;
+  width: 30px;
+  position: absolute;
+  top: 55%;
+  opacity: 0.5;
+}
+#btn2 {
+  height: 50px;
+  width: 30px;
+  opacity: 0.5;
+  position: absolute;
+  top: 55%;
+  left: 90%;
+}
+#project-heading {
+  position: absolute;
+  color: #2600ff;
+  background-color: #08ff25;
+  opacity: 0.7;
+  top: 40%;
+  left: 22%;
+  font-size: 40px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  border-right: 0.15em solid rgb(255, 0, 149);
+  overflow: hidden;
+  white-space: nowrap;
+  animation: typing 3.5s steps(30, end) infinite;
+}
+@keyframes typing {
+  0%,
+  10%,
+  100% {
+    width: 0;
+  }
+  70%,
+  90% {
+    width: 60%;
+  }
+}
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: rgb(234, 0, 255);
+  }
+}
+.leftside {
+  width: 600px;
+  height: auto;
+  display: block;
+
+  align-items: center;
+}
+.project-myself {
+  border-top: 5px solid rgb(139, 250, 3);
+  font-size: 35px;
+  color: #ff0088;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 700;
+  position: relative;
+}
+.project-descryption {
+  font-size: 25px;
+  font-family: "Times New Roman", Times, serif;
+}
+.p-heading {
+  font-size: 30px;
+  color: #54d65d;
+}
+.link1,
+.link2,
+.link3,
+.link4 {
+  text-decoration: none;
+  color: #f308c8;
+}
+.link1:hover,
+.link2:hover,
+.link3:hover,
+.link4:hover {
+  color: #ffff;
+}
+.active {
+  color: #ffff;
+  background-color: #00ff04;
+}
