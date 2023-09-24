@@ -36,9 +36,18 @@ function Viewproject() {
           {project.map((item) => {
             return (
               <div>
-                <img className="projectpage-image" src={item.url} alt="" />
+                <img
+                  className="projectpage-image"
+                  key={item.id}
+                  src={item.url}
+                  alt=""
+                />
 
-                <a href={item.link} className="projectpage-heading">
+                <a
+                  key={item.id}
+                  href={item.link}
+                  className="projectpage-heading"
+                >
                   {item.heading}
                 </a>
               </div>

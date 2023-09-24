@@ -13,7 +13,7 @@ function Header() {
         </div>
         <div id="submainheader">
           <div className="subheader1">
-            <Link id="li1" to="home">
+            <Link id="li1" to="/">
               Home
             </Link>
           </div>
