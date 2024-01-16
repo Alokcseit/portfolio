@@ -25,6 +25,12 @@ var project = [
       "This Project Is developed by Reactjs and its backend is developed by nodejs and expressjs ,for database purpose MongoDB is used.in this project play are availavle , you can filter as your requirement.",
     link: "https://streampage.vercel.app/",
   },
+  {
+    id: 4,
+    url: "https://reduxsh.netlify.app/",
+    descryption: "this a small  redux project",
+    link: "https://reduxsh.netlify.app/",
+  },
 ];
 function Viewproject() {
   return (
